@@ -1,0 +1,32 @@
+.cabecera{
+    background-color: lavender;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 18px;
+
+}
+
+
+.titulo-legend{
+    font-size: 20px;
+
+}
+
+.contenedor 
+{
+ background-color: lavender;
+ font: 25px;
+ font-family:  'Times New Roman', Times, serif;
+ border-radius: 10px;
+
+
+}
+
+.encabezado-contacto
+{
+
+    font-weight: bold;
+}
+

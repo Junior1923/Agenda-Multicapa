@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Agenda Multicapa</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+        <script src="POST.js"></script>
+    </head>
+   
+    <body onload="LoadContact()">
+        <center> 
+        <div class="cabecera">
+            Agenda de contactos del ITLA
+        </div>
+        </center>
+        <div class="Entrada">
+            <form> 
+                <fieldset>
+                    <legend class="titulo-legend">add.contactos</legend>
+                 <label for="nombre">Nombre</label>
+                <input type="text" name="" id= "nombre"size="30">
+                <br>
+                 <label for="apellido">Apellido</label>
+                 <input type="text" name="" id= "apellido" size="30">
+                 <br>
+                 <label for="telefono">Telofono</label>
+                 <input type="text" name="" id="telefono" size="30">
+                 <br>
+                 <input type="button" value="Enviar" onclick="AddContact()" id="botonEnviar">
+                </fieldset>
+            </form>
+        </div>
+
+
+    
+        <div class="contenedor">
+          <table class="TableContact">
+               <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>telefono</th>
+               </tr>
+             <tbody id="table_C">
+
+             </tbody>
+          </table>
+        </div>
+        
+    </body>
+</html>
